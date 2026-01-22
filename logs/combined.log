@@ -1,0 +1,41 @@
+{"level":"info","message":"User registered: rutuja@example.com","timestamp":"2026-01-20T05:45:24.523Z"}
+{"level":"info","message":"User registered: komal@example.com","timestamp":"2026-01-20T05:46:11.738Z"}
+{"level":"error","message":"Login error: secretOrPrivateKey must have a value","timestamp":"2026-01-20T05:54:07.927Z"}
+{"level":"error","message":"Login error: secretOrPrivateKey must have a value","timestamp":"2026-01-20T05:54:43.148Z"}
+{"level":"error","message":"Login error: secretOrPrivateKey must have a value","timestamp":"2026-01-20T05:54:45.125Z"}
+{"level":"error","message":"Login error: secretOrPrivateKey must have a value","timestamp":"2026-01-20T06:00:46.057Z"}
+{"level":"info","message":"User logged in: rutuja@example.com","timestamp":"2026-01-20T06:01:37.064Z"}
+{"level":"info","message":"User logged out: d697966d-9ea8-4c02-8705-dbcb512a2626","timestamp":"2026-01-20T06:20:18.152Z"}
+{"level":"info","message":"User logged in: rutuja@example.com","timestamp":"2026-01-20T06:41:41.439Z"}
+{"level":"info","message":"User logged out: d697966d-9ea8-4c02-8705-dbcb512a2626","timestamp":"2026-01-20T06:41:57.466Z"}
+{"level":"info","message":"User registered: sandya@example.com","timestamp":"2026-01-20T06:47:48.905Z"}
+{"level":"info","message":"User logged in: sandya@example.com","timestamp":"2026-01-20T06:48:01.782Z"}
+{"level":"info","message":"User logged out: d697966d-9ea8-4c02-8705-dbcb512a2626","timestamp":"2026-01-20T06:49:21.878Z"}
+{"level":"info","message":"User registered: test_1768894758456@example.com","timestamp":"2026-01-20T07:39:18.976Z"}
+{"level":"info","message":"User logged in: test_1768894758456@example.com","timestamp":"2026-01-20T07:39:19.308Z"}
+{"level":"info","message":"User registered: test_1768894933726@example.com","timestamp":"2026-01-20T07:42:14.106Z"}
+{"level":"info","message":"User logged in: test_1768894933726@example.com","timestamp":"2026-01-20T07:42:14.258Z"}
+{"level":"error","message":"POST /api/auth/login - 400: Unexpected token '\"', \"\"{ malformed json\"\" is not valid JSON","timestamp":"2026-01-20T07:42:14.282Z"}
+{"level":"error","message":"GET /api/analytics/ - 400: Unexpected end of JSON input","timestamp":"2026-01-20T07:42:35.646Z"}
+{"level":"info","message":"User logged in: rutuja@example.com","timestamp":"2026-01-20T07:44:36.957Z"}
+{"level":"error","message":"GET /api/analytics/ - 400: Unexpected end of JSON input","timestamp":"2026-01-20T07:44:53.870Z"}
+{"level":"info","message":"User registered: hema@example.com","timestamp":"2026-01-20T23:20:13.661Z"}
+{"level":"info","message":"User logged in: hema@example.com","timestamp":"2026-01-20T23:20:28.177Z"}
+{"level":"error","message":"GET /api/analytics - 400: Unexpected end of JSON input","timestamp":"2026-01-20T23:22:14.870Z"}
+{"level":"error","message":"GET /api/analytics - 400: Unexpected end of JSON input","timestamp":"2026-01-20T23:22:17.085Z"}
+{"level":"info","message":"User logged in: rutuja@example.com","timestamp":"2026-01-20T23:25:22.406Z"}
+{"level":"info","message":"User logged in: rutuja@example.com","timestamp":"2026-01-20T23:26:49.802Z"}
+{"level":"info","message":"User registered: kamala@example.com","timestamp":"2026-01-20T23:34:38.658Z"}
+{"level":"info","message":"User logged in: kamala@example.com","timestamp":"2026-01-20T23:34:54.234Z"}
+{"level":"error","message":"Register error: notNull Violation: User.full_name cannot be null,\nnotNull Violation: User.role cannot be null","timestamp":"2026-01-21T00:04:23.675Z"}
+{"level":"error","message":"Register error: notNull Violation: User.full_name cannot be null,\nnotNull Violation: User.role cannot be null","timestamp":"2026-01-21T00:09:49.148Z"}
+{"level":"error","message":"Register error: notNull Violation: User.full_name cannot be null,\nnotNull Violation: User.role cannot be null","timestamp":"2026-01-21T00:12:47.573Z"}
+{"level":"error","message":"Register error: notNull Violation: User.full_name cannot be null,\nnotNull Violation: User.role cannot be null","timestamp":"2026-01-21T00:13:02.725Z"}
+{"level":"error","message":"Register error: notNull Violation: User.full_name cannot be null,\nnotNull Violation: User.role cannot be null","timestamp":"2026-01-21T00:14:50.334Z"}
+{"level":"error","message":"Register error: notNull Violation: User.full_name cannot be null,\nnotNull Violation: User.role cannot be null","timestamp":"2026-01-21T00:19:32.301Z"}
+{"level":"error","message":"Register error: notNull Violation: User.full_name cannot be null,\nnotNull Violation: User.role cannot be null","timestamp":"2026-01-21T00:19:35.246Z"}
+{"level":"error","message":"Register error: notNull Violation: User.full_name cannot be null,\nnotNull Violation: User.role cannot be null","timestamp":"2026-01-21T00:19:41.579Z"}
+{"level":"error","message":"Register error: notNull Violation: User.full_name cannot be null,\nnotNull Violation: User.role cannot be null","timestamp":"2026-01-21T00:21:41.892Z"}
+{"level":"error","message":"Register error: notNull Violation: User.full_name cannot be null,\nnotNull Violation: User.role cannot be null","timestamp":"2026-01-21T00:22:59.174Z"}
+{"level":"info","message":"User registered: 78408c35-858f-4eee-a2a7-f2aa8eabf8e5","timestamp":"2026-01-21T00:26:12.614Z"}
+{"level":"info","message":"User logged in: ruta@example.com","timestamp":"2026-01-21T00:27:38.681Z"}
