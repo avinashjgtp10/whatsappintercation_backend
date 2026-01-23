@@ -39,3 +39,9 @@
 {"level":"error","message":"Register error: notNull Violation: User.full_name cannot be null,\nnotNull Violation: User.role cannot be null","timestamp":"2026-01-21T00:22:59.174Z"}
 {"level":"info","message":"User registered: 78408c35-858f-4eee-a2a7-f2aa8eabf8e5","timestamp":"2026-01-21T00:26:12.614Z"}
 {"level":"info","message":"User logged in: ruta@example.com","timestamp":"2026-01-21T00:27:38.681Z"}
+{"level":"info","message":"User registered: 1ee73f11-3be9-4155-8931-02d7ae48f9d7","timestamp":"2026-01-22T06:28:18.064Z"}
+{"level":"info","message":"User logged in: shivani@example.com","timestamp":"2026-01-22T06:28:32.159Z"}
+{"level":"error","message":"Logout error: invalid signature","timestamp":"2026-01-22T06:29:10.961Z"}
+{"level":"info","message":"User logged out: 1ee73f11-3be9-4155-8931-02d7ae48f9d7","timestamp":"2026-01-22T06:29:35.783Z"}
+{"level":"info","message":"User registered: a8133697-1531-4284-b041-82e101918e13","timestamp":"2026-01-22T06:30:27.039Z"}
+{"level":"info","message":"User logged in: komal@example.com","timestamp":"2026-01-22T06:30:46.659Z"}
