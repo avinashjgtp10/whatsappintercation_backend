@@ -17,3 +17,4 @@
 {"level":"error","message":"Register error: notNull Violation: User.full_name cannot be null,\nnotNull Violation: User.role cannot be null","timestamp":"2026-01-21T00:19:41.579Z"}
 {"level":"error","message":"Register error: notNull Violation: User.full_name cannot be null,\nnotNull Violation: User.role cannot be null","timestamp":"2026-01-21T00:21:41.892Z"}
 {"level":"error","message":"Register error: notNull Violation: User.full_name cannot be null,\nnotNull Violation: User.role cannot be null","timestamp":"2026-01-21T00:22:59.174Z"}
+{"level":"error","message":"Logout error: invalid signature","timestamp":"2026-01-22T06:29:10.961Z"}
