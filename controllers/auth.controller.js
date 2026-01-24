@@ -1,4 +1,4 @@
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs"); // ✅ FIXED (was bcrypt)
 const jwt = require("jsonwebtoken");
 const User = require("../models/Users");
 const redisClient = require("../config/redis");
@@ -32,7 +32,7 @@ class AuthController {
 
             logger.info(`User registered: ${user.id}`);
 
-            res.status(201).json({
+            return res.status(201).json({
                 status: "success",
                 message: "User registered successfully",
                 data: {
@@ -45,7 +45,7 @@ class AuthController {
 
         } catch (err) {
             logger.error(`Register error: ${err.message}`);
-            res.status(500).json({
+            return res.status(500).json({
                 status: "error",
                 message: "Server error",
             });
@@ -95,7 +95,7 @@ class AuthController {
 
             logger.info(`User logged in: ${user.email}`);
 
-            res.json({
+            return res.json({
                 status: "success",
                 data: {
                     accessToken,
@@ -112,7 +112,7 @@ class AuthController {
 
         } catch (err) {
             logger.error(`Login error: ${err.message}`);
-            res.status(500).json({
+            return res.status(500).json({
                 status: "error",
                 message: "Server error",
             });
@@ -162,7 +162,7 @@ class AuthController {
                 { expiresIn: "15m" }
             );
 
-            res.json({
+            return res.json({
                 status: "success",
                 data: {
                     accessToken: newAccessToken,
@@ -171,7 +171,7 @@ class AuthController {
 
         } catch (err) {
             logger.error(`Refresh token error: ${err.message}`);
-            res.status(401).json({
+            return res.status(401).json({
                 status: "error",
                 message: "Invalid token",
             });
@@ -201,14 +201,14 @@ class AuthController {
 
             logger.info(`User logged out: ${decoded.id}`);
 
-            res.json({
+            return res.json({
                 status: "success",
                 message: "Logged out successfully",
             });
 
         } catch (err) {
             logger.error(`Logout error: ${err.message}`);
-            res.status(500).json({
+            return res.status(500).json({
                 status: "error",
                 message: "Server error",
             });
